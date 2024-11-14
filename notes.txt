@@ -243,5 +243,6 @@ I have no idea why the "main()" variant is so slow. I presume it might be a bug 
 Run qemu like so:
 
 qemu-system-x86_64 -smbios type=0,uefi=on -bios bios.bin -drive file=disk_start.img -s -debugcon file:debug.log -global isa-debugcon.iobase=0x402 -display none -vnc :0
+Check debug.log after run for the offset the shell gets loaded to, to rebase IDAs analysis of the EFI binary to for proper debugging.
 
 Ubuntu qemu is too old - it won't work here! You need v9 from kali or windows build!
