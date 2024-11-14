@@ -208,6 +208,11 @@ X$R8AAAAAAAAAAAA
 2nd Block
 VerYDumBAAAAAAAA
 
+3rd Block
+"Educated guess" :-/ 
+
+Also once Adler32 was identified: https://md5hashing.net/hash/adler32/0f910374
+
 Description of approach:
 
 I used the same load Pe sub for challenge 9 and there it worked perfectly for all sections. 
